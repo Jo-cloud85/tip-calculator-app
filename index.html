@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/svg" sizes="32x32" href="./images/percent-solid.svg">
+  <title>SPLITTER | a tip calculator app</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <img class="logo" src="images/logo.svg" alt="logo-svg">
+    <div class="container">
+      <input type="checkbox" id="toggle">
+    </div>
+    <div class="white-container">
+      <div class="input-container">
+
+        <div class="bill">
+          <div class="lLabel">
+            <label for="bill-text" class="label-text">Bill</label>
+            <p id="bill-err-msg"></p>
+          </div>
+          <div class="bill-input">
+            <img class="icon" src="images/icon-dollar.svg">
+            <input type="number" class="input-field" id="b-input" placeholder="0" />
+          </div>
+        </div>
+
+        <div class="select-tip">
+          <label for="select-tip-text" class="label-text">Select Tip %</label>
+          <div class="percentage-buttons">
+            <button type="button" class="btn tip-input" value=5>5%</button>
+            <button type="button" class="btn tip-input" value=10>10%</button>
+            <button type="button" class="btn tip-input" value=15>15%</button>
+            <button type="button" class="btn tip-input" value=25>25%</button>
+            <button type="button" class="btn tip-input" value=50>50%</button>
+            <input type="number" class="custom-input tip-input" placeholder="Custom">
+          </div>
+        </div>
+
+        <div class="numPpl">
+          <div class="lLabel">
+            <label for="numPpl-text" class="label-text">Number of People</label>
+            <p id="num-err-msg"></p>
+          </div>
+          <div class="numPpl-input">
+            <img class="icon" src="images/icon-person.svg">
+            <input type="number" class="input-field" id="n-input" placeholder="0" />
+          </div>
+        </div>
+
+      </div>
+
+      <div class="output-container">
+
+        <div class="tip">
+
+          <div class="tip-amt">
+            <div class="tip-amt-label">
+              <label>Tip Amount</label>
+              <small>/ person</small>
+            </div>
+            <div class="tip-amt-output">$0.00</div>
+          </div>
+
+          <div class="tip-total">
+            <div class="total-amt-label">
+              <label>Total</label>
+              <small>/ person</small>
+            </div>
+            <div class="total-amt-output">$0.00</div>
+          </div>
+
+        </div>
+
+        <button type="reset" class="reset-btn" disabled>RESET</button>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/Jo-cloud85">Jo Young</a>.
+  </div> -->
+
+  <script src="script.js"></script>
+</body>
+
+</html>
