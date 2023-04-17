@@ -25,14 +25,14 @@ Users should be able to:
 
 ### Screenshot
 
-- Default: [images/Day-mode.png](images/Day-mode.png)
+- Default: ![images/Day-mode.png](images/Day-mode.png)
 
-- Night mode: [images/Night-mode.png](images/Night-mode.png)
+- Night mode: ![images/Night-mode.png](images/Night-mode.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Jo-cloud85/tip-calculator-app.git)
+- Live Site URL: [Add live site URL here](https://jo-cloud85.github.io/tip-calculator-app/)
 
 ## My process
 
