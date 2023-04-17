@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Jo-cloud85/tip-calculator-app.git)
-- Live Site URL: [Add live site URL here](https://jo-cloud85.github.io/tip-calculator-app/)
+- Solution URL: [https://github.com/Jo-cloud85/tip-calculator-app.git](https://github.com/Jo-cloud85/tip-calculator-app.git)
+- Live Site URL: [https://jo-cloud85.github.io/tip-calculator-app/](https://jo-cloud85.github.io/tip-calculator-app/)
 
 ## My process
 
